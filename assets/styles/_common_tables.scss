@@ -1,0 +1,84 @@
+@import './common_colors';
+
+#contracts {
+    text-align: center;
+}
+
+.btn-sect {
+    text-align: right;
+}
+
+.title-new-mobile {
+    text-align: center;
+    padding-bottom: 1.5rem;
+
+    .page-title {
+        text-align: center;
+    }
+}
+
+.fa-check-circle {
+    color: green;
+}
+
+.fa-times-circle {
+    color: red;
+}
+
+.fa-trash-alt {
+    color: rgb(243, 75, 75);
+}
+
+.clickable {
+    cursor: pointer;
+    color: $default-black;
+}
+
+.table {
+    border: none;
+    text-align: left;
+
+    .header {
+        border: none;
+
+        .list-title {
+            border: none;
+        }
+    }
+
+    .body {
+        border: none;
+        
+        .body-light {
+            border: none;
+            background-color: rgb(255, 255, 255);
+    
+            .result-info {
+                border: none;
+            }
+        }
+    
+        .body-dark {
+            border: none;
+            background-color: rgb(247, 247, 247);
+    
+            .result-info {
+                border: none;
+            }
+        }
+    }
+}
+
+.dark-bg{
+    background-color: rgb(247, 247, 247);
+}
+
+.light-bg {
+    background-color: rgb(255, 255, 255);
+}
+
+.disabled-icon {
+    color: #ffbbbb;
+    cursor: not-allowed;
+    pointer-events: none;
+}

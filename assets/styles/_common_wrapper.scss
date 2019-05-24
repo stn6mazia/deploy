@@ -1,0 +1,46 @@
+@import './common_colors';
+
+.wrapper {
+    text-align: center;
+    padding-top: 2rem;
+} 
+
+.clickable {
+    cursor: pointer;
+}
+
+.align-left {
+    text-align: left;
+}
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.results-sum-box {
+    border: 2px solid $default-orange;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    cursor: pointer;
+}
+
+.results-sum-box:hover {
+    border: 2px solid $default-white;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: $default-purple;
+    color: white;
+    cursor: pointer;
+}
+
+.align-to-right {
+    text-align: right
+}
+
+.align-to-left {
+    text-align: left
+}
